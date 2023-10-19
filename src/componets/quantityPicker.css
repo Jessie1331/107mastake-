@@ -1,0 +1,10 @@
+label{
+    display: block;
+    margin-bottom: 10px;
+    size: 16px;
+}
+button{
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+}

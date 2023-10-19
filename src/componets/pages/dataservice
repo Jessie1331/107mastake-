@@ -1,0 +1,69 @@
+var catalog =  [
+    {
+    "title": "Flash",
+    "catagory":"Flashers",
+    'Price': 970,
+    "image": "flash.webp",
+   "id":'1',
+},
+
+
+    {
+        "title": "Elegent",
+        "catagory":"Heels",
+        'Price': 590,
+        "image": "elegent.webp",
+        'id':'2',
+        },
+    
+
+        {
+            "title": "How High",
+            "catagory":"Hightops",
+            'Price': 580,
+            "image": "mens hightops.webp",
+            'id':'3',
+            },
+        
+
+            {
+                "title": "jr's",
+                "catagory":"LilKicks",
+                'Price': 370,
+                "image": "kids.webp",
+                'id':'4',
+                },
+            
+{
+                
+    "title": "Sneeks",
+    "catagory":"Sneeks",
+     'Price': 650,
+     'image':'sneeks.webp',
+     'id':'5',
+                
+},
+{
+    "title": "HighRise",
+    "catagory":"Boots",
+     'Price': 450,
+     'image':'boots.webp',
+     'id':'6',
+},  
+{
+      
+    "title": "Show Offs",
+    "catagory":"Heels",
+     'Price': 650,
+     'image':'heels.webp',
+     'id':'7',
+},
+]
+class DataService {
+
+    getProducts(){
+        return catalog;
+    }
+}
+
+export default DataService;
